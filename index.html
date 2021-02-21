@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Class dan Id CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <Center>
+        <header>
+            <div id="header">
+                <img src="1.jpg" alt="">
+                <h4>UNIVESITAS INDRAPRASTA PGRI <br>(UNINDRA) </h4>
+                <h5>JL.Nangka N0.56 Tanjung Barat - Jaksel</h5>
+            </div>
+        </header>
+    </Center>
+    <hr id="hr" >
+    <div class="konten">
+        <h4 class="judul">BIODATA MAHASISWA</h4>
+        <form class="horizontal" action="MemberAccount.html" method="post">
+               <div class="grup">
+                   <label for="nama">Nama Lengkap<span class="nama">:</span></label>
+                   <input type="text" name="Nama"  placeholder="Masukkan Nama Anda">
+               </div>
+               <div class="grup" >
+                   <label for="tujuan" id="alamat">Alamat <span class="alamat">:</span></label>
+                   <input type="textarea" name="tujuan" rows="3" cols="10"  placeholder="Masukkan Alamat Anda">
+               </div><br>
+               <div class="grup" id="tgl">
+                   <label for="tgl">TANGGAL LAHIR<span class="tgl">:</span></label>
+                   <input type="text" name="tgl"  placeholder="dd/mm/yyyy">
+               </div>
+               <div class="grup">
+                   <label for="no.telp">TELP<span class="tlp">:</span></label>
+                   <input type="tel" name="No.Hp"   placeholder=" Masukkan No.telp">
+               </div>
+               <div class="grup">
+                   <label for="email">E-mail<span class="email">:</span></label>
+                   <input type="email" name="email"  placeholder="Masukkan  Email Anda">
+               </div>      
+               <div id="grup">
+                   <button type="submit" >SIMPAN</button>
+                   <button type="reset" >BATAL</button>
+               </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+   #header{
+    width: 580px;
+    text-align: center;
+   }
+   #header img{
+       float: left;
+       width: 130px;
+       height: 85px;
+   }
+   hr {
+       border: blue 1px solid;
+       width: 80%;
+    height: 3px;
+    background-color: #333; /* Modern Browsers */
+}
+   .konten{
+    width: 480px;
+    margin: 30px auto 0;
+   } 
+   .judul{
+    text-align: center;
+   }
+   .grup{
+    margin: 7px 0;
+    margin-top: 7px;
+   }
+   .grup label,
+   .grup input,
+   .grup button{
+    display: block;
+   }
+   .grup label{
+    display: inline-block;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 7px;
+   }
+   .grup input[type="text"],
+   .grup input[type="tel"],
+   .grup input[type="email"]{
+    width: 170px;
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 150px;
+    background: #cccccc;
+    border: #000000;
+    font-size: 13px;
+    color: #1a1a1a;
+    float: right;
+   }
+   .grup input[type="textarea"]{
+    width: 280px;
+    height: 80px;
+    background: #cccccc;
+    border: #000000;
+    font-size: 13px;
+    color: #1a1a1a;
+    float: right;
+    margin-right: 40px;
+    text-align: center ;
+   }
+   #alamat{
+       margin-top: 35px;
+   } 
+   #grup{
+    word-spacing: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    color: #ffffff;
+    text-align: center;
+   }
+   .nama{
+    margin-left: 50px;
+    font-weight: normal;
+   }
+   .alamat{
+    margin-left: 94px;
+    font-weight: normal;
+   }
+   .tgl{
+    margin-left: 20px;
+    font-weight: normal;
+   }
+   .tlp{
+    margin-left: 104px;
+    font-weight: normal;
+   }
+   .email{
+    margin-left: 100px;
+    font-weight: normal;
+   }
+   
+  
